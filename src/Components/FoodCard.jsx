@@ -19,7 +19,7 @@ const FoodCard = ({id, name, price, image, rating, desc}) => {
             <FaStar className='text-yellow-300 text-2xl' />
             <h1>{rating}</h1>
           </span>
-          <button className='bg-blue-900 px-2 rounded-md hover:bg-green-900 transition-all duration-500 hover:text-black   font-semibold text-xl'>Check Out</button>
+          <button className='bg-blue-900 px-2 rounded-md hover:bg-green-900 transition-all duration-500 hover:text-black   font-semibold text-xl'>Add To Card</button>
         </div>
       </div>
     </div>
